@@ -1,0 +1,275 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body{
+    background-color: #f1f1f1;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+header, main, footer {
+    padding-left: 250px;
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 992px){
+    header, main, footer {
+        padding-left: 0;
+    }
+    nav .nav-wrapper {
+        text-align: center;
+    }
+}
+
+a.button-collapse.top-nav{
+    position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    left: 7.5%;
+    top: 0;
+    float: none;
+    margin-left: 1.5rem;
+    color: #fff;
+    font-size: 36px;
+    z-index: 2;
+}
+
+.site-article{
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -moz-box-flex: 1;
+    -moz-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    margin: 0 0 10px;
+    padding: 10px 0;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.skill-card .skill-card--image {
+    min-height: 80px
+}
+.skill-card .skill-card--footer {
+    flex: 1 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.skill-card {
+    background-color: #fff;
+    max-height: 150px;
+    max-width: 80px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    margin: 0 10px 10px 0
+}
+
+.skill-card img {
+    max-height: 80px;
+    max-width: 80px;
+    top: 0;
+    left: 0
+}
+
+@media (min-width: 34em) {
+    .skill-card,.skill-card img {
+        max-width:100px
+    }
+
+    .skill-card img {
+        max-height: 100px
+    }
+
+    .skill-card .skill-card--image {
+        min-height: 100px
+    }
+}
+.material-icons.position {
+    font-size: 14px;
+    color: #3f51b5;
+}
+
+.collection .collection-item.avatar {
+    padding-left: 20px;
+    border: 0;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14),0 2px 1px -2px rgba(0,0,0,.2),0 0 3px 0 rgba(0,0,0,.12);
+}
+
+.collection .collection-item.avatar img {
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.collection .collection-item.avatar .title {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+    display: block;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    line-height: 1.2;
+}
+.collection .collection-item.avatar .title a{
+    color: #616161;
+}
+.collection .collection-item.avatar .title a:hover {
+    color: #3f51b5 !important;
+}
+.collection{
+    margin: 20px 0;
+    border: 0;
+}
+.secondary-content {
+    color: #444;
+}
+.skill-row {
+    margin-bottom: 20px;
+}
+nav{
+    background: #3f51b5;
+}
+.side-nav {
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 0px 6px 0px;
+}
+nav.top-nav .nav-wrapper {
+    font-size: 32px;
+    text-align: right;
+}
+.text-center{
+    text-align: center !important;
+}
+
+.side-nav li > a > i.material-icons.clr-purple {
+    color: #E040FB;
+}
+#education .clr-pink,
+.side-nav li > a > i.material-icons.clr-pink {
+    color: #FF4081 !important;
+}
+.side-nav li > a > i.material-icons.clr-blue {
+    color: #448AFF;
+}
+.side-nav li > a > i.material-icons.clr-orange {
+    color: #FFAB40;
+}
+.side-nav li > a > i.material-icons.clr-green {
+    color: #69F0AE;
+}
+.action-btn {
+    position: relative;
+}
+.action-btn .fixed-action-btn{
+    position: absolute;
+    min-height: 120px;
+    max-height: 120px;
+    top: 50px;
+    left: 0;
+}
+a.button-collapse.top-nav{
+    margin-left: 0;
+}
+.side-nav .userView .circle {
+    height: 100px;
+    width: 100px;
+}
+.side-nav .userView .name {
+    font-size: 22px;
+}
+.side-nav a {
+    padding: 0 20px;
+}
+.side-nav .userView {
+    padding: 32px 20px 10px;
+}
+.side-nav li > a > i,
+.side-nav li > a > i.material-icons{
+    margin: 0 20px 0 0;
+}
+.side-nav .userView .email {
+    padding-bottom: 0;
+}
+
+
+#contact .btn-floating i,
+#contact .fixed-action-btn.toolbar ul li{
+    background-color: #ff4081;
+    color:#fff;
+}
