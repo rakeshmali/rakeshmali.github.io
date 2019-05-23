@@ -273,3 +273,6 @@ a.button-collapse.top-nav{
     background-color: #ff4081;
     color:#fff;
 }
+.responsibility-list{
+    padding-left: 20px !important;
+}
