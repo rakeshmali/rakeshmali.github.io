@@ -276,3 +276,16 @@ a.button-collapse.top-nav{
 .responsibility-list{
     padding-left: 20px !important;
 }
+
+@media (min-width: 991px) {
+    #projects li.collection-item.avatar:nth-child(odd) {
+        margin-right: 1%;
+    }
+    #projects li.collection-item.avatar {
+        width: 49%;
+        display: inline-block;
+        min-height: 210px;
+        vertical-align: bottom;
+    }
+}
+
